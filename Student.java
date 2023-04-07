@@ -16,6 +16,6 @@ public class Student {
   }
 
   public String toString() {
-    return email + ", " + stuPref;
+    return email + ", " + stuPref[0] + ", " + stuPref[1] + ", " + stuPref[2] + ", " + stuPref[3] + ", " + stuPref[4] + ".";
   }
 }
