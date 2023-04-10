@@ -78,7 +78,7 @@ public class Session {
   }
 
   //method to find the index of the second occurence of a session
-  public int findSesIndex2(int id) {
+  public int getSesIndex2(int id) {
     int count = 18;
     for (int i = 18; i<24; i++) {
       if (sesList.get(i).getID() == id) {
